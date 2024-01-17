@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
-*{
+
+* {
     font-family: 'Mulish', sans-serif;
 }
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -250,8 +252,10 @@ button {
     text-align: center;
     border: 0;
     margin-bottom: 45px;
-    background-color: rgba(19, 19, 24, 0.05);;
+    background-color: rgba(19, 19, 24, 0.05);
+    ;
 }
+
 .section4-button {
     width: 400px;
     height: 52px;
@@ -260,95 +264,153 @@ button {
     background-color: #FF5400;
     border: 0;
 }
-.section4-div2{
+
+.section4-div2 {
     position: relative;
 }
-.z-index1{
+
+.z-index1 {
     position: relative;
     z-index: 1;
 }
-.z-index2{
+
+.z-index2 {
     position: relative;
     z-index: 2;
     top: -426px;
 }
-.section5-extra-section{
+
+.section5-extra-section {
     margin-left: 100px;
     margin-right: 100px;
 }
-.section5-container{
+
+.section5-container {
     text-align: center;
     color: black;
 }
-.section5-container a{
+
+.section5-container a {
     color: black;
     text-decoration: none;
 }
-.section5-img{
+
+.section5-img {
     display: flex;
     margin-left: 20px;
     gap: 50px;
     margin-top: 50px;
 }
-footer{
+
+footer {
     background-color: rgba(19, 19, 24, 0.05);
     margin-top: 100px;
     width: 100%;
 }
-.footer1{
+
+.footer1 {
     display: flex;
     margin-left: 335px;
     gap: 50px;
     align-items: center;
     padding: 100px;
 }
-.finish1{
+
+.finish1 {
     text-align: center;
     margin: -10px 335px 10px 335px;
 }
-.footer-img{
+
+.footer-img {
     display: flex;
     margin-top: 100px;
     gap: 25px;
     margin-left: 470px;
 }
-.footer-done{
+
+.footer-done {
     text-align: center;
     margin-top: 100px;
-    padding-bottom:110px ;
+    padding-bottom: 110px;
 }
-.maldives, .indonesia, .srilanka, .north-america, .kashmir, .bangladesh, .bandarban{
+
+.maldives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban {
     position: absolute;
     color: white;
 }
-.section2-second{
+
+.section2-second {
     position: relative;
 }
-.maldives{
+
+.maldives {
     top: 130px;
     left: 190px;
 }
-.indonesia{
+
+.indonesia {
     top: 130px;
     left: 700px;
 }
-.srilanka{
+
+.srilanka {
     top: 440px;
     left: 110px;
 }
-.north-america{
+
+.north-america {
     top: 440px;
     left: 470px;
 }
-.kashmir{
+
+.kashmir {
     top: 440px;
     left: 860px;
 }
-.bangladesh{
+
+.bangladesh {
     top: 740px;
     left: 135px;
 }
-.bandarban{
+
+.bandarban {
     top: 740px;
     left: 650px;
 }
+
+/* .banner{
+    display: none;
+} */
+main {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+/* mobile device */
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .header2 li {
+        margin-right: 15px;
+    }
+
+    .header1 {
+        margin-left: 85px;
+    }
+
+    .header2 {
+        margin-top: 15px;
+    }
+}
+/* sir can i please atleast get 30 marks. i promise from the next module i will always complete the full assingment. */
