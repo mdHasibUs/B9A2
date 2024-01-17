@@ -83,3 +83,10 @@
 .banner2 input{
     text-align: center;
 }
+.section1{
+    display: flex;
+    gap: 35px;
+}
+.section1-first li{
+    text-align: left;
+}
