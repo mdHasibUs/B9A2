@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header1{
+    display: flex;
+    margin-left: 125px;
+    margin-top: 50px;
+    gap: 15px;
+}
+.header2{
+    margin-right: 125px;
+    margin-top: 66px;
+}
+.header2 ul{
+    display: flex;
+}
+.header2  li{
+    list-style: none;
+    margin-right: 44px;
+}
+.header2 a{
+    text-decoration: none;
+    color: #424247;
+}
+#color1{
+    color: #FF5400;
+}
+#color2{
+    color: #FF5400;
+}
